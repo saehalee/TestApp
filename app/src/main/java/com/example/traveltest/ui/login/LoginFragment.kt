@@ -15,15 +15,20 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.navigation.NavController
+import androidx.navigation.Navigation
 import com.example.traveltest.databinding.FragmentLoginBinding
 
 import com.example.traveltest.R
+import kotlinx.android.synthetic.main.fragment_login.login_as_nonMember
 
 class LoginFragment : Fragment() {
 
     private lateinit var loginViewModel: LoginViewModel
     private var _binding: FragmentLoginBinding? = null
 
+
+    lateinit var navController: NavController
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -109,6 +114,12 @@ class LoginFragment : Fragment() {
                 usernameEditText.text.toString(),
                 passwordEditText.text.toString()
             )
+        }
+
+        navController = Navigation.findNavController(view)
+
+        login_as_nonMember.setOnClickListener{
+            navController.navigate(R.id.action_loginFragment_to_questionFragment)
         }
     }
 
