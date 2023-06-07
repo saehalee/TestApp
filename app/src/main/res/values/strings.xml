@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TravelTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_title">Travel\nTest</string>
+    <string name="main_subtitle">WHICH COUNTRY\nSUITS ME?</string>
+    <string name="question1">What is the most\nimportant thing\nin life?</string>
+    <string-array name="selection_1">
+        <item>EATING</item>
+        <item>RESTING</item>
+        <item>PLAYING</item>
+        <item>MEETING</item>
+    </string-array>
+
+    <string-array name="country">
+        <item>Taiwan</item>
+        <item>Japan</item>
+        <item>USA</item>
+        <item>Thailand</item>
+    </string-array>
+
+    <string name="Taiwan">미국의 CNN채널에서도 반드시 먹어보아야 하는 타이완 맛집을 보도한 적이 있어요.\n타이완 문화를 더욱 심도있게 체험하고 싶다면 타이베이 뤼요왕에서 선정한 반드시 먹어보아야\n하는 현지 맛집 10가지 요리를 맛보는 것부터 시작해 보십시오!</string>
+    <string name="Japan">일본은 풍부한 역사와 과거에 대한 존중, 진보적인 기술 및 IT, 건축 디자인 등\n 다양한 매력을 품고 있어 알찬 여행을 즐기기 좋은 나라입니다.\n옛 사찰부터 세계에서 가장 높고 현대적인 건물에 이르기까지, \n상반된 모습이 공존하는 일본의 매력을 확인해 보세요.</string>
+    <string name="USA">미국은 다양성, 개인의 자유와 독립, 경제적 열림과 기회, 민주주의 국가로 사회적 인터랙션과\n대화를 통해 사회적 상호작용을 중요시해요.\n 편안한 태도로 개방적이고 혁신적인 사고를 가진 사람과의 교류를 경험할 수 있어요.</string>
+    <string name="Thailand">푸켓, 사무이, 크라비와 후아인, 방콕과 치앙마이 등이 대표적인 태국의 휴양지랍니다.\n안락하고 안정적인 기후로 인해 휴식을 원하는 사람들에게 추천하는 나라에요.</string>
+    <!-- Strings related to login -->
+    <string name="userid">ID</string>
+    <string name="userpw">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name= "action_find_info">ID/PW찾기</string>
+    <string name="action_login_as_nonMember">비회원 로그인</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
