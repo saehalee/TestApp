@@ -2,6 +2,7 @@ package com.example.traveltest
 
 import android.app.ActivityManager
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
@@ -46,9 +47,11 @@ class MainActivity : AppCompatActivity() {
 //            if(connection == null){
 //                if(showMessa)
 //            }
-        }catch(e:ClassNotFoundException){
+        } catch(e:ClassNotFoundException) {
             e.printStackTrace()
-        }catch(e:SQLException){
+        } catch(e:SQLException) {
+            e.printStackTrace()
+        } catch(e:Exception) {
             e.printStackTrace()
         }
         return connection
